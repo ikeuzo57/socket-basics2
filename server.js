@@ -78,7 +78,7 @@ io.on('connection', function(socket){
 
 	socket.emit('message', {
 		name: 'System',
-		text: "Welcome to the Chat Application! Please enter @currentUsers to view current Users in this room",
+		text: "Welcome to Ike's Chat Application! Please enter @currentUsers to view current Users in this room",
 		timestamp: moment().valueOf()
 
 
